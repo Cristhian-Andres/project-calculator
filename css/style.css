@@ -1,6 +1,10 @@
 :root{
-    --primary-color: rgba(79, 51, 176, 1);
-    --secundary-color: rgba(210, 53, 165)
+  /*colors*/
+  --primary-color: rgba(79, 51, 176, 1);
+  --secundary-color: rgb(31, 213, 119, 1);
+  /*fonts*/
+  --font-primary: sans-serif;
+  --font-secundary: 'Times New Roman', Times, serif;
 }
 
 * {
@@ -12,7 +16,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: var(--font-primary);
 }
 
 a {
@@ -34,7 +38,7 @@ body {
 
 .calculator {
   position: relative;
-  height: 80vh;
+  height: auto;
   width: auto;
   padding: 20px;
   border-radius: 20px;
@@ -167,12 +171,20 @@ button#equal {
 }
 
 /* */
+.footer__socials{
+  display: grid;
+  place-items: center;
+}
 .footer__social{
-    padding: 16px;
-    font-size: 32px;
-    color: greenyellow;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 .footer__copy{
-    font-size: 16px;
-    font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font-secundary);
 }
