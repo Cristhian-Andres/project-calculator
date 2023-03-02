@@ -1,7 +1,5 @@
 # Calculator
 
-En esta aplicación se realizo para Portafolio.
-
 - Sitio web responsivo realizado con HTML CSS y JavaScript
 - Incluye un modo claro y oscuro.
 - Desarrollado primero con la metodología Mobile First, luego para escritorio.
